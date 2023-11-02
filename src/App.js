@@ -11,16 +11,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Todo />} />
-        <Route path='/about' element={<TodoNav />} />
-
-
       </Routes>
-
     </Router>
-
-    
-
-
     </>
   );
 }
